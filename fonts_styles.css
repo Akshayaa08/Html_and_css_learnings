@@ -1,0 +1,26 @@
+/* to include downloaded fonts from google in the folder */
+@font-face {
+    src: url(fonts/PlaywriteBRGuides-Regular.ttf); 
+    /* this is the method of linking the fonts from the folder */
+    font-family: Playwrite;
+    /* by this font-family: property we can rename the font name */
+}
+@font-face {
+    font-family: Roboto-Variable;
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+#h1{
+    font-family: "Playwrite",'Times New Roman', Times, serif;
+}
+#h2{
+    font-family: "Roboto-Variable",'Times New Roman', Times, serif;
+}
+p{
+    font-family: "lucida console","courier new";
+    font-size: 18px;
+    /* 1em = 100% which is normal, 0.5em= 50%  */
+    /* font-size: 1em; */
+    font-weight: bold;
+    font-style: italic;
+}
