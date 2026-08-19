@@ -1,0 +1,30 @@
+body{
+    margin:px;
+}
+.box{
+    border: 5px solid;
+    font-size: 25px;
+    width: 250px;
+    height: 250 px;
+    margin:50px
+}
+#box1{
+    background-color: red;
+    margin-left:auto
+   
+}
+#box2{
+    background-color: yellow;
+    margin-right:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#box3{
+    background-color: blue;
+    margin:auto;
+}
+#box4{
+    background-color: green;
+    margin-right:auto;
+}
