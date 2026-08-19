@@ -1,0 +1,15 @@
+#img1{
+    float:left;
+    margin-right: 10px;
+}
+#img2{
+    float:right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+body{
+    border: 3px solid;
+    /* The display makes the image to be fitted inside the border of the box */
+    display: flow-root;
+}
