@@ -1,0 +1,12 @@
+h1{
+    /* the first number is for horizontal offset - rightside because it is positve negative leftside, */
+    /* the second is vertical offset - downwards, the third number is for blur effect.  */
+    /* More number of offset can be provided */
+    text-shadow: 3px 3px 5px red, -3px -3px 5px yellow ;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    box-shadow: 3px 3px 5px blue,-3px -3px 5px darkblue;
+}
