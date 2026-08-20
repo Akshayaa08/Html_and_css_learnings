@@ -1,0 +1,15 @@
+div{
+    border: 2px solid;
+    height: 50px;
+    /* The contents outside the box will be overflowed and visibile */
+    /* overflow:visible; */
+    /* the contents will hidden outside the box */
+    /* overflow: hidden; */
+    /* clip will make certain content to be hidden and it will be associated with the margin */
+    /* overflow: clip;
+    overflow-clip-margin: 13px; */
+    /* The scroll bar will be present and it will be scrolled down */
+    /* overflow: scroll; */
+    /* Based on the information the messages are put inside the box */
+    overflow:auto
+}
