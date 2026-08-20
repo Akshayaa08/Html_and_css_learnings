@@ -1,0 +1,51 @@
+/* Link is also a pseudo class */
+a:link{
+    color:aquamarine
+}
+a:hover{
+    color:darkblue;
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color:red
+}
+a:visited{
+    color:yellow
+}
+
+li:hover{
+    background-color: greenyellow;
+}
+li:not(:hover){
+    background-color: lightblue;
+}
+
+li:nth-child(8){
+    background-color: pink;
+}
+li:nth-child(odd){
+    background-color: orange;
+}
+li:nth-child(even){
+    background-color: red
+    ;
+}
+li:nth-child(3n){
+    background-color: palegreen;
+}
+li:nth-child(4n){
+    background-color: paleturquoise;
+}
+li:nth-child(3n+2){
+    background-color: paleturquoise;
+}
+
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display:none
+}
+#greeting:hover p{
+    display: block;
+}
