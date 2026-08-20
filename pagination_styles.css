@@ -15,5 +15,5 @@
 .pagination a:hover:not(.active){
     background-color: gray;
     border-radius: 5px;
-
+    
 }
