@@ -1,0 +1,28 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    /* Relative Position */
+    position: relative;
+    top: 100px;
+    left: 100px; 
+    /* Fixed Position */
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    /* Sticky is similar to fix but it reserve some space to the original element*/
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    position: static;
+    top: 50px;
+    left: 50px;
+}
