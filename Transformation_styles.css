@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+img{
+    transform: translateX(40%) rotateZ(45deg) scale(0.5);
+
+}
+.box{
+     width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100%) rotateZ(45deg) scale(0.5);
+
+}
+#box1{
+    background-color: greenyellow;
+    /* transform: translateX(50%); */
+    /* transform: translateY(50%); */
+    /* transform: translate(50px, 50px); */
+
+    /* transform: rotateX(180deg);
+    transform: rotateY(135deg); */
+    /* transform: rotateZ(45deg); */
+    
+    /* transform: scaleX(2); */
+    /* transform: scaleY(0.5); */
+    /* transform: scaleX(3,2); */
+
+    /* transform: skewX(135deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skew(0,0); */
+}
+#box2{
+    background-color: red;
+}
+#box3{
+    background-color: blue;
+}
