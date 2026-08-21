@@ -2,9 +2,9 @@ div{
     background-color: lightcoral;
     width: 100px;
     height: 100px;
-    /* display: block; */
-    /* display: inline; */
-    /* display:none; */
+    display: block;
+    display: inline;
+    display:none;
     display: inline-block;
     visibility: hidden;
 
@@ -13,9 +13,9 @@ span{
     background-color: lightblue;
     width: 100px;
     height: 100px;
-    /* display: block; */
-    /* display: inline; */
-    /* display:none; */
+    display: block;
+    display: inline;
+    display:none;
     display: inline-block;
 
 }
